@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Buckshot Roullet</title>
+		<link
+			rel="shortcut icon"
+			href="./src/assets/icons/favicon.ico"
+			type="image/-icon"
+		/>
+		<link rel="stylesheet" href="./src/styles/style.css" />
+	</head>
+	<body>
+		<main class="content">
+			<header>
+				<h1 class="main-title">Buckshot Roullet</h1>
+			</header>
+
+			<div class="game">
+				<div class="informations">
+					<h2 class="informations__title"></h2>
+					<section class="inventory">
+						<table>
+							<tr>
+								<td id="player-item-1" class="inventory__item"></td>
+								<td id="player-item-2" class="inventory__item"></td>
+							</tr>
+							<tr>
+								<td id="player-item-3" class="inventory__item"></td>
+								<td id="player-item-4" class="inventory__item"></td>
+							</tr>
+						</table>
+					</section>
+
+					<section class="health health-player">
+						<h2 class="informations__title">Player</h2>
+						<div class="health__bar">
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+						</div>
+					</section>
+				</div>
+
+				<section class="game-section">
+					<div class="demon"></div>
+					<div class="gun"></div>
+				</section>
+
+				<section class="informations">
+					<section class="inventory">
+						<table>
+							<tr>
+								<td id="demon-item-1" class="inventory__item"></td>
+								<td id="demon-item-2" class="inventory__item"></td>
+							</tr>
+							<tr>
+								<td id="demon-item-3" class="inventory__item"></td>
+								<td id="demon-item-4" class="inventory__item"></td>
+							</tr>
+						</table>
+					</section>
+
+					<section class="health health-demon">
+						<h2 class="informations__title">Him</h2>
+						<div class="health__bar">
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+						</div>
+					</section>
+				</section>
+			</div>
+		</main>
+	</body>
+</html>
