@@ -1,0 +1,12 @@
+{
+	"name": "buckshot-roullet-demake",
+	"version": "1.0.0",
+	"description": "A demake of the game 'Buckshot Roullet'",
+	"main": "./src/scripts/main.js",
+  "type": "commonjs",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Rafael Santiago",
+	"license": "MIT"
+}
