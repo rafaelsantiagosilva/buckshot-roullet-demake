@@ -10,6 +10,16 @@
 			type="image/-icon"
 		/>
 		<link rel="stylesheet" href="./src/styles/style.css" />
+		<link
+			rel="stylesheet"
+			href="src/styles/portrait.css"
+			media="screen and (orientation: portrait)"
+		/>
+		<link
+			rel="stylesheet"
+			href="src/styles/landscape.css"
+			media="screen and (orientation: landscape)"
+		/>
 		<script src="./src/scripts/main.js" type="text/javascript" defer></script>
 	</head>
 	<body>
@@ -20,7 +30,16 @@
 
 			<div class="game">
 				<div class="informations">
-					<h2 class="informations__title"></h2>
+					<section class="health health-player">
+						<h2 class="informations__title">Player</h2>
+						<div class="health__bar">
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+							<div class="health__bar__point"></div>
+						</div>
+					</section>
 					<section class="inventory">
 						<table>
 							<tr>
@@ -32,17 +51,16 @@
 								<td id="player-item-4" class="inventory__item"></td>
 							</tr>
 						</table>
-					</section>
-
-					<section class="health health-player">
-						<h2 class="informations__title">Player</h2>
-						<div class="health__bar">
-							<div class="health__bar__point"></div>
-							<div class="health__bar__point"></div>
-							<div class="health__bar__point"></div>
-							<div class="health__bar__point"></div>
-							<div class="health__bar__point"></div>
-						</div>
+						<table>
+							<tr>
+								<td id="player-item-5" class="inventory__item"></td>
+								<td id="player-item-6" class="inventory__item"></td>
+							</tr>
+							<tr>
+								<td id="player-item-7" class="inventory__item"></td>
+								<td id="player-item-8" class="inventory__item"></td>
+							</tr>
+						</table>
 					</section>
 				</div>
 
@@ -52,6 +70,16 @@
 				</section>
 
 				<section class="informations">
+					<section class="health health-demon">
+						<h2 class="informations__title">Him</h2>
+						<div class="health__bar">
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+							<div class="health__bar__point" draggable="false"></div>
+						</div>
+					</section>
 					<section class="inventory">
 						<table>
 							<tr>
@@ -63,17 +91,16 @@
 								<td id="demon-item-4" class="inventory__item"></td>
 							</tr>
 						</table>
-					</section>
-
-					<section class="health health-demon">
-						<h2 class="informations__title">Him</h2>
-						<div class="health__bar">
-							<div class="health__bar__point" draggable="false"></div>
-							<div class="health__bar__point" draggable="false"></div>
-							<div class="health__bar__point" draggable="false"></div>
-							<div class="health__bar__point" draggable="false"></div>
-							<div class="health__bar__point" draggable="false"></div>
-						</div>
+						<table>
+							<tr>
+								<td id="demon-item-5" class="inventory__item"></td>
+								<td id="demon-item-6" class="inventory__item"></td>
+							</tr>
+							<tr>
+								<td id="demon-item-7" class="inventory__item"></td>
+								<td id="demon-item-8" class="inventory__item"></td>
+							</tr>
+						</table>
 					</section>
 				</section>
 			</div>
