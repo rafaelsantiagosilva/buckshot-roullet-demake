@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.informations-landscape {
+	display: block;
+}
+
+.informations-portrait {
+	display: none;
+}
