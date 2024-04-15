@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url(./reset.css);
+@import url(./style.css);
+
+.keyboard {
+	display: flex;
+	flex-direction: column;
+     margin-left: 5em;
+}
+
+.keyboard_row {
+	display: flex;
+     flex-shrink: 4;
+     justify-content: space-between;
+}
+
+.keyboard__key {
+     background-color: #fff;
+     box-shadow: 3px 3px 3px 3px black;
+     padding: 1em;
+     font-size: 1.5em;
+     cursor: pointer;
+     border-radius: 5px;
+     width: 100%;
+}
+
+.keyboard__key:hover{
+     background-color: rgb(245, 245, 245);
+}
+
+.keyboard__key:active {
+     box-shadow: none;
+}
+
+.keyboard__enter {
+     font-size: 1.4em;
+     padding: 1.1em;
+
+}

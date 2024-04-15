@@ -27,6 +27,7 @@ body {
 	text-shadow: -6px 0px 2px rgb(88, 78, 78);
 	padding-top: 1rem;
 	letter-spacing: 4px;
+	margin: 1em;
 }
 
 .main-title::selection {
